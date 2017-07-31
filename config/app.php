@@ -170,11 +170,11 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        Cidery\Providers\AppServiceProvider::class,
+        Cidery\Providers\AuthServiceProvider::class,
+        // Cidery\Providers\BroadcastServiceProvider::class,
+        Cidery\Providers\EventServiceProvider::class,
+        Cidery\Providers\RouteServiceProvider::class,
 
     ],
 
